@@ -1,5 +1,5 @@
 # Zoom Delivery
-This is a website for a delivery app.
+This is a website for a delivery app called Zoom Delivery.
 
 ## Screenshots
 <table>
