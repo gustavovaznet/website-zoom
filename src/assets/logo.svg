@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="58.100441mm"
+   height="12.244498mm"
+   viewBox="0 0 58.100441 12.244499"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="99.4443"
+     inkscape:cy="85.071229"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(58.394237,-157.56997)">
+    <rect
+       style="fill:#b05ffd;fill-opacity:1;stroke:#b05ffd;stroke-width:0.359;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect36-5-36"
+       width="35.499916"
+       height="11.88068"
+       x="-35.973213"
+       y="157.75285"
+       ry="1.201417" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#b05ffd;stroke-width:0.359;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect36-7"
+       width="22.0263"
+       height="11.885498"
+       x="-58.214737"
+       y="157.74947"
+       ry="1.2019041" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-34.823742"
+       y="166.91058"
+       id="text12-5"><tspan
+         sodipodi:role="line"
+         id="tspan10-3"
+         x="-34.823742"
+         y="166.91058"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Uroob;-inkscape-font-specification:Uroob;fill:#ffffff;stroke-width:0.26458332">DELIVERY</tspan></text>
+    <rect
+       style="fill:#b05ffd;fill-opacity:1;stroke:#1a1a10;stroke-width:0.09421861;stroke-opacity:0"
+       id="rect36-5-3-5"
+       width="2.3965995"
+       height="12.110435"
+       x="-37.279091"
+       y="157.62592"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-57.246506"
+       y="166.83977"
+       id="text12-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan10-7-2"
+         x="-57.246506"
+         y="166.83977"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Uroob;-inkscape-font-specification:Uroob;fill:#ffffff;stroke-width:0.26458332"><tspan
+           style="fill:#b05ffd;fill-opacity:1;stroke:#b05ffd;stroke-width:0.26458332;stroke-opacity:1"
+           id="tspan13-5-9">ZOOM</tspan></tspan></text>
+  </g>
+</svg>

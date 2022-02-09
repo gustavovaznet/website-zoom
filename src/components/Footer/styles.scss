@@ -1,0 +1,149 @@
+//FOOTER CSS STYLES
+.contact__container {
+  padding-bottom: 3rem;
+}
+
+.contact__description {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contact__content {
+  row-gap: .75rem;
+}
+
+
+.contact__address {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(45, 4%, 15%);
+}
+
+.contact__information {
+  font-weight: initial;
+  color: hsl(45, 4%, 15%);
+}
+
+.footer {
+  width: 100%;
+  background-color: #b05ffd;
+  padding-bottom: 2rem;
+}
+
+.footer__container {
+  row-gap: 2rem;
+}
+
+.footer__logo, .footer__title {
+  font-size: 1.125rem;
+  margin-bottom: .75rem;
+}
+
+.footer__logo {
+  display: inline-block;
+}
+
+.footer__description, .footer__link {
+  font-size: .813rem;
+}
+
+.footer__links {
+  display: grid;
+  row-gap: .5rem;
+  padding-left: 0;
+}
+
+.footer__link {
+  color: hsl(45, 4%, 15%);
+  font-size: 1rem;
+}
+
+.footer__link:hover {
+  color: hsl(45, 0%, 100%);
+  transition: 0.2s;
+}
+
+.footer__social {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: hsl(45, 4%, 15%);
+}
+
+.footer__social-link:hover {
+  color: hsl(45, 0%, 100%);
+  transition: 0.2s;
+}
+
+.footer__copy {
+  margin-top: 6rem;
+  text-align: center;
+  font-size: .75rem;
+  color: hsl(45, 4%, 35%);;
+}
+
+.footer p{
+  font-size: 1rem;
+  color: #282828;
+  font-weight: 600;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 360px) {
+  .section {
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .contact__container,
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact__container {
+    align-items: center;
+  }
+  .contact__description {
+    text-align: initial;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .contact__container {
+    column-gap: 6rem;
+  }
+  .contact__container {
+    grid-template-columns: 3fr 1.5fr 1.25fr;
+  }
+  .footer__container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .footer__social {
+    align-items: flex-start;
+  }
+  .footer__social-link {
+    font-size: 1.45rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer__container {
+    column-gap: 3rem;
+  }
+}

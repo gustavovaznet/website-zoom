@@ -1,0 +1,80 @@
+//HEADER CSS STYLES
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.home__container {
+  row-gap: 3rem;
+}
+
+.home__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: .75rem;
+}
+
+.home__description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 360px) {
+  .section {
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home__img{
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .section__title-center {
+    text-align: initial;
+  }
+  .home__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home__img {
+    order: 1;
+  }
+  .home__container{
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+  .home__container {
+    padding: 6rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img {
+    width: 540px;
+  }
+  .home__description {
+    padding-right: 5rem;
+  }
+}

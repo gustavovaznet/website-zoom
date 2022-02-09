@@ -1,0 +1,91 @@
+//NAVBAR CSS STYLES
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  background-color: hsl(45, 0%, 100%);;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: .5s;
+}
+
+.nav {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+}
+
+.nav__link, .nav__toggle {
+  color: hsl(45, 4%, 15%);
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  color: #b05ffd;
+  transition: 0.2s;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 820px) {
+  .nav__menu { 
+    display: none;
+  }  
+}
+
+@media screen and (max-width: 360px) {
+  .section {
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .section__title-center {
+    text-align: initial;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header{
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .section {
+    padding: 6rem 0 2rem;
+  }
+  .nav {
+    height: calc(3rem + 1.5rem);
+  }
+  .nav__list {
+    flex-direction: row;
+    column-gap: 2.5rem;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,108 @@
+//ABOUT CSS STYLES
+.section {
+  padding: 4.5rem 0 1rem;
+}
+
+.about__section{
+  background-color: #b05ffd;
+}
+
+.section__title, .section__title-center {
+  font-size: 1.25rem;
+  color: hsl(45, 4%, 15%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  background-color: hsl(45, 0%, 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: .5s;
+}
+
+.security__description, .about__description{
+  font-size: 1rem;
+  color: #263238;
+}
+
+.about__container {
+  gap: 2.5rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.security__container {
+  gap: 2.5rem;
+}
+
+.security__data {
+  text-align: center;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 360px) {
+  .section {
+    padding: 3.5rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .section__title-center {
+    text-align: initial;
+  }
+  .about__container,
+  .security__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about__container,
+  .security__container{
+    align-items: center;
+  }
+  .about__data,
+  .security__data{
+    text-align: initial;
+  }
+  .about__img{
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    margin: 0;
+  }
+  .section {
+    padding: 6rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .about__container,
+  .security__container{
+    column-gap: 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
